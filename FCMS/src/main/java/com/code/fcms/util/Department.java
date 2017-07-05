@@ -12,11 +12,11 @@ public enum Department {
 	
 	private String name;
 	
-	private Department(String name){
+	Department(String name){
 		this.name = name();
 	}
 	
-	private String getName(){
+	public String getName(){
 		return this.name; 
 	}
 }
